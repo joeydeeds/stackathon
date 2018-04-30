@@ -52,6 +52,7 @@ const getBookQuery = gql`
       author {
         id
         name
+        age
         books {
           name
           id

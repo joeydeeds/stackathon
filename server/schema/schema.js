@@ -12,6 +12,7 @@ const {
   GraphQLNonNull
 } = graphql
 
+
 const BookType = new GraphQLObjectType({
   name: 'Book',
   fields: () => ({
@@ -26,6 +27,7 @@ const BookType = new GraphQLObjectType({
     }
   })
 })
+
 
 const AuthorType = new GraphQLObjectType({
   name: 'Author',
